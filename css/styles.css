@@ -1,0 +1,182 @@
+/************Home Styles***************/
+body{
+    margin: 0;
+}
+/***********Nav Bar**************/
+.main-nav{
+    background-color: #7601bb;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+   
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    font-family: bradley hand itc;
+}
+
+.logo{
+    height: 60px;
+}
+
+.nav-list{
+    float: right;
+    list-style: none;
+    
+}
+
+.nav-item{
+    float: left;
+    margin-left: 15px;
+    font-family: 'Fontdiner Swanky', cursive;
+    
+  
+}
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: limegreen;
+}
+
+.active{
+    color: #ff099b;
+}
+/****************Hero Image******************/
+.hero-background{
+    background-image: url('../images/nikita.jpg');
+    height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 25px;
+}
+
+.hero-text{
+    margin-top: 0;
+    text-align: center;
+    color: #000;
+    
+}
+
+/**************Columns*************/
+section{
+    height: 550px;
+}
+
+.column{
+    width: 30%;
+    height: 475px;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    border: 5px solid black;
+    margin-top: 25px;
+    background-color: #8976a3;
+    font-family: 'Parisienne', cursive;
+    
+}
+
+.column-img{
+    height: 150px;
+}
+
+/************Footer*************/
+footer{
+    background-color: #fffff;
+    height: 150px;
+    text-align: center;
+
+
+    
+}
+
+.social-links {
+    text-decoration: none;
+    
+}
+    
+    
+.social-links > .fa{
+    color: #be42ee;
+    font-size: 50px;
+    text-align: center;
+}
+
+.social-links > .fa:hover{
+    color: #fff;
+}
+
+/**************About Styles*************/
+
+/**********Hero Image**********/
+.hero-background2{
+    background-image: url('../images/andrew.jpg');
+    height: 600px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 25px;
+}
+.about-bio{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: url('../images/p.jpg');
+}
+
+/*************Columns**********/
+.column-about{
+   width: 40%;
+   float: left;
+   border-top: 2px solid #000;
+   border-bottom: 2px solid #000;
+
+}
+.bio-header{
+    margin-top: 50px;
+}
+.container{
+    height: 500px;
+}
+.column-image{
+    height: 100px;
+}
+
+.contact-button{
+    background-color: green;
+    border-radius: 7px;
+    padding: 5px 10px;
+    
+}
+.link-text{
+    color: #fff;
+    text-decoration: none;
+
+}
+.link-text:hover{
+    color: red;
+}
+/**************Contact Styles***************/
+
+/************Hero Image**************/
+.hero-background3{
+    background-image: url('../images/dominik.jpg');
+    height: 650px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 25px;
+}
+
+.iframe-container{
+    width: 40%;
+    margin-left: 500px;
+}
